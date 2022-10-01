@@ -16,7 +16,7 @@ public class Num2438 {
             for (int j = 0; j < i + 1; j++) {
                 bw.write("*");
             }
-            bw.write("\n");
+            bw.write('\n');
         }
 
         br.close();
