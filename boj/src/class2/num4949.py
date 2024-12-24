@@ -19,8 +19,7 @@ while True:
             if not stack or table[char] != stack[-1]:
                 is_valid = False
                 break
-            elif stack and table[char] == stack[-1]:
-                stack.pop()
+            stack.pop()
 
     if stack or not is_valid:
         print("no\n")
