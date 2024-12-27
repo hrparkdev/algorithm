@@ -4,16 +4,16 @@ def push(stack, x):
     stack.append(x)
 
 def pop(stack):
-    return stack.pop() if stack else "-1"
+    return stack.pop() if stack else -1
 
 def size(stack):
     return len(stack)
 
 def empty(stack):
-    return "1" if not stack else "0"
+    return 1 if not stack else 0
 
 def top(stack):
-    return stack[-1] if stack else "-1"
+    return stack[-1] if stack else -1
 
 input = sys.stdin.readline
 print = sys.stdout.write
