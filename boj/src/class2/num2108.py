@@ -21,9 +21,9 @@ mode_candidates = [num for num, freq in modes if freq == max_frequency]
 mode = mode_candidates[0] if len(mode_candidates) == 1 else mode_candidates[1]
 
 #범위
-range = max(nums) - min(nums)
+range_value = max(nums) - min(nums)
 
 print(f"{mean}\n")
 print(f"{median}\n")
 print(f"{mode}\n")
-print(f"{range}\n")
+print(f"{range_value}\n")
